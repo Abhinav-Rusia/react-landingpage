@@ -14,4 +14,4 @@ This project is a simple "Coming Soon" landing page designed to capture attentio
 - **Tailwind CSS**: Tailwind CSS is used for styling the page with a focus on utility-first design and responsiveness.
 - **JavaScript**: JavaScript is used for form handling and interactive elements.
 
-![Alt Text](../src/assets/preview.png)
+![preview landing](/src/assets/preview.png)
