@@ -6,15 +6,17 @@ const Navbar = () => {
 
   return (
     <div className="font-poppins container py-4 relative">
-      <nav className="container flex items-center justify-between">
+      <nav id="navbar" className="container flex items-center justify-between">
         {/* logo section */}
-        <div className="flex items-center">
+        <div className="flex items-center mt-2">
           <img
-            className="w-[4rem] h-[4rem] object-cover hover:scale-150 transition-all duration-300 ease-in-out"
+            className="w-[4rem] h-[4rem] object-cover hover:scale-110 transition-all duration-300 ease-in-out"
             src={llama}
             alt="Logo"
           />
-          <h1 className="font-Rubik text-xl font-semibold">Llama Logo</h1>
+          <h1 className="font-Berkshire text-2xl text-[#BA0130] font-semibold">
+            Llama Logo
+          </h1>
         </div>
 
         {/* hamburger menu */}
@@ -27,17 +29,17 @@ const Navbar = () => {
 
         {/* Nav links for larger screen */}
         <ul className="hidden sm:flex space-x-10">
-          <li className="hover:text-blue-500 font-semibold hover:scale-105">
-            <a href="#">Home</a>
+          <li className="hover:text-[#BA0130] font-semibold hover:scale-105">
+            <a href="#home">Home</a>
           </li>
-          <li className="hover:text-blue-500 font-semibold hover:scale-105">
-            <a href="#">Services</a>
+          <li className="hover:text-[#BA0130] font-semibold hover:scale-105">
+            <a href="#services">Services</a>
           </li>
-          <li className="hover:text-blue-500 font-semibold hover:scale-105">
-            <a href="#">About</a>
+          <li className="hover:text-[#BA0130] font-semibold hover:scale-105">
+            <a href="#about">About</a>
           </li>
-          <li className="hover:text-blue-500 font-semibold hover:scale-105">
-            <a href="#">Contact Us</a>
+          <li className="hover:text-[#BA0130] font-semibold hover:scale-105">
+            <a href="#footer">Contact Us</a>
           </li>
         </ul>
       </nav>

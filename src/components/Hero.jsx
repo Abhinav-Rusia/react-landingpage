@@ -8,7 +8,7 @@ const Hero = (props) => {
             className={`flex justify-center ${props.reverse ? "order-last" : ""}`}
           >
             <img
-              className={`w-full max-w-md hover:scale-105 transition-all duration-300 ease-in-out ${props.style}`}
+              className={`w-full max-w-md hover:scale-105 transition-all translate-x-2 duration-300 ease-in-out ${props.style}`}
               src={props.image}
               alt="Hero"
             />

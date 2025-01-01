@@ -12,7 +12,8 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["Poppins", ...fontFamily.sans],
-        Rubik : ["Rubik Vinyl", ...fontFamily.sans]
+        Rubik : ["Rubik Vinyl", ...fontFamily.sans],
+        Berkshire : ["Berkshire Swash",...fontFamily.sans]
       },
       container: {
         center:true,

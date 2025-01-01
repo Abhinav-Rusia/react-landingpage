@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = (props) => {
   return (
-    <div className="container py-12 px-6 bg-gray-50">
+    <div id="services" className="container py-12 px-6 bg-gray-50">
       <h2 className="text-3xl font-semibold text-center text-gray-800 mb-10">
         
       </h2>

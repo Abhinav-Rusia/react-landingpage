@@ -2,9 +2,10 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services.jsx";
-import RocketMan from "../src/assets/rocketman.png";
+import Footer from "./components/Footer.jsx";
+import RocketMan from "../src/assets/rocketman.webp";
 import heroImg from "../src/assets/hero.png";
-import Team from "../src/assets/team.png";
+import Team from "../src/assets/team.webp";
 import clock from "../src/assets/clock.png";
 import browsing from "../src/assets/browsing.png";
 import rocket from "../src/assets/rocket.png";
@@ -38,21 +39,21 @@ const App = () => {
   ];
   const servicesData2 = [
     {
-      id: 1,
+      id: 4,
       image: lego,
       title: "Easy To Use",
       description:
         "Craft countless unique logos that perfectly represent your brand, designed to seamlessly align with your identity and vision.",
     },
     {
-      id: 2,
+      id: 5,
       image: font,
       title: "Quality Fonts",
       description:
         "Transform your logo with premium fonts that perfectly capture your brand's essence and make a lasting impression.",
     },
     {
-      id: 3,
+      id: 6,
       image: diamond,
       title: "Quality Icons",
       description:
@@ -100,12 +101,14 @@ const App = () => {
         image={Team}
         h1={`Save time\n Save Money\n Do it your way!`}
         p={
-          "Save time and money while staying in control. Create your way, effortlessly and effectively."
+          "Create your perfect logo in minutes! Save time and money with our easy-to-use logo maker, and design a unique logo that truly represents your brand – all on your terms!"
         }
         style={"translate-x-[-40px]"}
         button={"Know More"}
         showInput={false}
       />
+
+      <Footer />
     </>
   );
 };
